@@ -1,0 +1,7 @@
+work/
+results/
+samples/
+.nextflow/
+.nextflow*
+*.img
+*.gz
