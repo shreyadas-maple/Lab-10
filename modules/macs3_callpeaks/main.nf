@@ -13,6 +13,7 @@ process CALLPEAKS {
 
     script:
     """
+    macs3 callpeak -f BAMPE -t $bam -g hs -n $samplename -B -q 0.01
     
     """
 
